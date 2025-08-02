@@ -1,15 +1,15 @@
 // Static variable type
 void main () {
 
-String name = "Alice"
-String _name = "Bob"
-String nAme = "Charlie"
+String name = "Alice" ;
+String _name = "Bob" ;
+String nAme = "Charlie" ;
 
 print(name);
 print(_name);
 print(nAme);
 
-print("--------------")
+print("--------------");
 
 name = "David";
 int age = 20;
