@@ -1,26 +1,26 @@
 // Enum
 
-enum Status { pending, approved, rejected }  
+// enum Status { pending, approved, rejected }
 
-void main() {
-  Status currenStatus = Status.approved;
-  
-if (currentStatus == Status.approved)  {
-    print("อนุมัติ");
-} else{
-  print(ไม่อนุมัติ);
-}
-} 
+// void main() {
+//  Status currentStatus = Status.approved;
+
+//  if (currentStatus == Status.approved) {
+//    print("อนุมัติ"); // Output: The status is approved
+//  } else {
+//    print("ไม่อนุมัติ"); // Output: The status is not approved}
+//  }
+// }
 
 enum Animal {
   dog('หมา'),
   cat('แมว'),
-  rat('หนู'),
+  rat('หนู');
 
-  final String thaiName;
-  const Animal(this.thisName);
-
+  final String thainame;
+  const Animal(this.thainame);
 }
-void main () {
-print(Animal.dog.thaiName): // Output: หมา
+
+void main() {
+  print(Animal.dog.thainame); // Output: หมา
 }
